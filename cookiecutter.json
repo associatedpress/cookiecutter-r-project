@@ -1,0 +1,4 @@
+{
+    "repo_url" : "{{ cookiecutter.repo_url }}",
+    "project_descrip" : "{{ cookiecutter.project_descrip }}"
+}
