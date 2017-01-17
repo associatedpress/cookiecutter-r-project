@@ -1,4 +1,6 @@
 {
-    "repo_url" : "{{ cookiecutter.repo_url }}",
-    "project_descrip" : "{{ cookiecutter.project_descrip }}"
+  "email": "<AP email address>",
+  "project_name": "Awesome New Project",
+  "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '-') }}",
+  "project_short_description": "Some awesome project about something awesome"
 }
