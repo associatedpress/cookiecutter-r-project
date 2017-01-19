@@ -1,6 +1,6 @@
 {
-  "full_name": "<Firstname Lastname",
-  "email": "<email address>",
+  "full_name": "Firstname Lastname",
+  "email": "",
   "project_name": "New Project",
   "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '-') }}",
   "project_short_description": "TK: short project description"
