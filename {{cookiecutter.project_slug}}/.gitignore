@@ -1,1 +1,7 @@
+*.vim
+.DS_Store
+
 data/
+!data/source/.gitkeep
+!data/manual/.gitkeep
+!data/generated/.gitkeep
