@@ -6,6 +6,8 @@ data/
 !data/manual/.gitkeep
 !data/generated/.gitkeep
 
+output/
+
 packrat/lib*/
 packrat/src/
 
