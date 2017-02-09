@@ -1,0 +1,240 @@
+PackratFormat: 1.4
+PackratVersion: 0.4.8.1
+RVersion: 3.3.2
+Repos: CRAN=https://cran.rstudio.com/
+
+Package: BH
+Source: CRAN
+Version: 1.62.0-1
+
+Package: DBI
+Source: CRAN
+Version: 0.5-1
+
+Package: R6
+Source: CRAN
+Version: 2.2.0
+
+Package: RColorBrewer
+Source: CRAN
+Version: 1.1-2
+
+Package: Rcpp
+Source: CRAN
+Version: 0.12.9
+
+Package: assertthat
+Source: CRAN
+Version: 0.1
+
+Package: broom
+Source: CRAN
+Version: 0.4.1
+Requires: dplyr, plyr, psych, reshape2, stringr, tidyr
+
+Package: colorspace
+Source: CRAN
+Version: 1.3-2
+
+Package: curl
+Source: CRAN
+Version: 2.3
+
+Package: devtools
+Source: CRAN
+Version: 1.12.0
+Requires: digest, git2r, httr, jsonlite, memoise, rstudioapi, whisker,
+    withr
+Hash: bbad95109ae75cbb14099281cda43af2
+
+Package: dichromat
+Source: CRAN
+Version: 2.0-0
+
+Package: digest
+Source: CRAN
+Version: 0.6.12
+
+Package: dplyr
+Source: CRAN
+Version: 0.5.0
+Requires: BH, DBI, R6, Rcpp, assertthat, lazyeval, magrittr, tibble
+
+Package: forcats
+Source: CRAN
+Version: 0.2.0
+Requires: magrittr, tibble
+
+Package: ggplot2
+Source: CRAN
+Version: 2.2.1
+Requires: digest, gtable, lazyeval, plyr, reshape2, scales, tibble
+
+Package: git2r
+Source: CRAN
+Version: 0.18.0
+Hash: 9dfaafbcca68be29b89ef7783dc1dac0
+
+Package: gtable
+Source: CRAN
+Version: 0.2.0
+
+Package: haven
+Source: CRAN
+Version: 1.0.0
+Requires: BH, Rcpp, hms, readr, tibble
+
+Package: hms
+Source: CRAN
+Version: 0.3
+
+Package: httr
+Source: CRAN
+Version: 1.2.1
+Requires: R6, curl, jsonlite, mime, openssl
+
+Package: jsonlite
+Source: CRAN
+Version: 1.2
+
+Package: labeling
+Source: CRAN
+Version: 0.3
+
+Package: lazyeval
+Source: CRAN
+Version: 0.2.0
+
+Package: lubridate
+Source: CRAN
+Version: 1.6.0
+Requires: stringr
+
+Package: magrittr
+Source: CRAN
+Version: 1.5
+
+Package: memoise
+Source: CRAN
+Version: 1.0.0
+Requires: digest
+Hash: 56e7087c3559eb7ba72a9afb349bf896
+
+Package: mime
+Source: CRAN
+Version: 0.5
+
+Package: mnormt
+Source: CRAN
+Version: 1.5-5
+
+Package: modelr
+Source: CRAN
+Version: 0.1.0
+Requires: broom, dplyr, lazyeval, magrittr, purrr, tibble, tidyr
+
+Package: munsell
+Source: CRAN
+Version: 0.4.3
+Requires: colorspace
+
+Package: openssl
+Source: CRAN
+Version: 0.9.6
+
+Package: packrat
+Source: CRAN
+Version: 0.4.8-1
+Hash: 6ad605ba7b4b476d84be6632393f5765
+
+Package: plyr
+Source: CRAN
+Version: 1.8.4
+Requires: Rcpp
+
+Package: psych
+Source: CRAN
+Version: 1.6.12
+Requires: mnormt
+
+Package: purrr
+Source: CRAN
+Version: 0.2.2
+Requires: BH, Rcpp, dplyr, lazyeval, magrittr
+
+Package: readr
+Source: CRAN
+Version: 1.0.0
+Requires: BH, R6, Rcpp, curl, hms, tibble
+
+Package: readxl
+Source: CRAN
+Version: 0.1.1
+Requires: Rcpp
+
+Package: reshape2
+Source: CRAN
+Version: 1.4.2
+Requires: Rcpp, plyr, stringr
+
+Package: rstudioapi
+Source: CRAN
+Version: 0.6
+Hash: fd256f8bfb9a64cc35f98b0decb1a79f
+
+Package: rvest
+Source: CRAN
+Version: 0.3.2
+Requires: httr, magrittr, selectr, xml2
+
+Package: scales
+Source: CRAN
+Version: 0.4.1
+Requires: RColorBrewer, Rcpp, dichromat, labeling, munsell, plyr
+
+Package: selectr
+Source: CRAN
+Version: 0.3-1
+Requires: stringr
+
+Package: stringi
+Source: CRAN
+Version: 1.1.2
+
+Package: stringr
+Source: CRAN
+Version: 1.1.0
+Requires: magrittr, stringi
+
+Package: tibble
+Source: CRAN
+Version: 1.2
+Requires: Rcpp, assertthat, lazyeval
+
+Package: tidyr
+Source: CRAN
+Version: 0.6.1
+Requires: Rcpp, dplyr, lazyeval, magrittr, stringi, tibble
+
+Package: tidyverse
+Source: CRAN
+Version: 1.1.1
+Requires: broom, dplyr, forcats, ggplot2, haven, hms, httr, jsonlite,
+    lubridate, magrittr, modelr, purrr, readr, readxl, rvest, stringr,
+    tibble, tidyr, xml2
+Hash: 72d5fada870c90b835bbdfc281283c99
+
+Package: whisker
+Source: CRAN
+Version: 0.3-2
+Hash: 803d662762e532705c2c066a82d066e7
+
+Package: withr
+Source: CRAN
+Version: 1.0.2
+Hash: 774eb7be9087cdc24b53b74e5359cfac
+
+Package: xml2
+Source: CRAN
+Version: 1.1.1
+Requires: BH, Rcpp

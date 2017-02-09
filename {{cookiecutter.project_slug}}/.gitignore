@@ -5,3 +5,12 @@ data/
 !data/source/.gitkeep
 !data/manual/.gitkeep
 !data/generated/.gitkeep
+
+output/
+
+packrat/lib*/
+packrat/src/
+
+.Rproj.user
+.RData
+.Rhistory
