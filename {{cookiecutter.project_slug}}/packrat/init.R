@@ -68,8 +68,6 @@ local({
   ## or when explicitly asked for on the command line
   if (interactive() || "--bootstrap-packrat" %in% commandArgs(TRUE)) {
 
-    needsRestore <- "--bootstrap-packrat" %in% commandArgs(TRUE)
-
     message("Packrat is not installed in the local library -- ",
             "attempting to bootstrap an installation...")
 
@@ -119,8 +117,7 @@ local({
       }
 
       # Restore the project, unload the temporary packrat, and load the private packrat
-      if (needsRestore)
-        packrat::restore(prompt = FALSE, restart = TRUE)
+      packrat::restore(prompt = FALSE, restart = TRUE)
 
       ## This code path only reached if we didn't restart earlier
       unloadNamespace("packrat")
@@ -181,7 +178,7 @@ local({
     ## an 'installed from source' version
 
     ## -- InstallAgent -- ##
-    installAgent <- 'InstallAgent: packrat 0.4.8-15'
+    installAgent <- 'InstallAgent: packrat 0.4.8-1'
 
     ## -- InstallSource -- ##
     installSource <- 'InstallSource: source'
@@ -196,8 +193,7 @@ local({
     library("packrat", character.only = TRUE, lib.loc = lib)
 
     message("> Restoring library")
-    if (needsRestore)
-      packrat::restore(prompt = FALSE, restart = FALSE)
+    restore(restart = FALSE)
 
     # If the environment allows us to restart, do so with a call to restore
     restart <- getOption("restart")
