@@ -13,8 +13,10 @@ This is a project template powered by [Cookiecutter](https://github.com/cookiecu
 │   └── archive
 ├── data
 │   ├── documentation
+│   ├── html_reports
 │   ├── manual
 │   ├── processed
+│   ├── public
 │   └── source
 ├── etl
 ├── publish
@@ -64,17 +66,9 @@ This is a project template powered by [Cookiecutter](https://github.com/cookiecu
 
 ## Usage
 
-There are two options for use with [datakit-project](https://github.com/associatedpress/datakit-project/):
+You will need to clone this repository to `~/.cookiecutters/` (make the directory if it doesn't exist). Then, use `datakit project`:
 
-**Specifying a template URL**:
-
-`datakit project create --template https://github.com/associatedpress/cookiecutter-r-project.git`
-
-This will pull the cookiecutter and prompt you for name, email, etc.
-
-**Storing cookiecutter locally**:
-
-You will need to clone this repository to `~/.cookiecutters/` (make the directory if it doesn't exist).
+`datakit project create --template cookiecutter-r-project`
 
 ## Configuration
 
