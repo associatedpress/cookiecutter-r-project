@@ -60,6 +60,7 @@ This is a project template powered by [Cookiecutter](https://github.com/cookiecu
 - `viz`
   - Graphics and visualization development specific work such as web interactive code should go here.
 - `{{cookiecutter.project_slug}}.Rproj`
+  - This is the .Rproj file that can be used with RStudio to work within the project.
 
 ## Usage
 
