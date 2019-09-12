@@ -66,9 +66,24 @@ This is a project template powered by [Cookiecutter](https://github.com/cookiecu
 
 ## Usage
 
-You will need to clone this repository to `~/.cookiecutters/` (make the directory if it doesn't exist). Then, use `datakit project`:
+You will need to clone this repository to `~/.cookiecutters/` (make the directory if it doesn't exist):
 
-`datakit project create --template cookiecutter-r-project`
+```
+cd path/to/.cookiecutters
+git clone git@github.com:associatedpress/cookiecutter-r-project
+```
+
+Then, use `datakit project`:
+
+```
+datakit project create --template cookiecutter-r-project
+```
+
+If you'd like to avoid specifying the template each time, you can edit `~/.datakit/plugins/datakit-project/config.json` to use this template by default:
+
+```
+{"default_template": "/Users/lfenn/.cookiecutters/cookiecutter-r-project"}
+```
 
 ## Configuration
 
