@@ -12,15 +12,23 @@
 
 ## Project notes
 
+### Staff involved
+
+*TK: List people & contact info for people involved in the project*
+
 [Responsibility matrix](url-to-responsibility matrix)
 
 [HIRUFF Q&A](url-to-hiruff)
+
+### Data sources
+
+*TK: List access info & contact info for data sources used in the project*
 
 ## Technical
 
 *TK: Instructions on how to bootstrap project, run ETL processes, etc.*
 
-### Getting started
+### Project setup instructions
 
 After cloning the git repo:
 
@@ -28,17 +36,7 @@ After cloning the git repo:
 
 Open `{{ cookiecutter.project_slug }}.Rproj` in RStudio.
 
-#### Rebuilding the project
-
-*TK: A pointer to a 'master rebuild' R script, if there is one in the project
-
-### Dependencies
-
-- The usual suspects:
-  - `tidyverse`
-  - `apstyle`
-- Project-specific dependencies:
-  - *TODO: Add other dependencies here, ideally with version numbers.*
+*TK: For more complex or unusual projects additional directions follow*
 
 ## Data notes
 

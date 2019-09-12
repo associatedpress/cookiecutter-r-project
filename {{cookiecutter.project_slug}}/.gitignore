@@ -6,8 +6,8 @@ data/
 !data/manual/.gitkeep
 !data/generated/.gitkeep
 
-output/
-!output/.gitignore
+scratch/
+!scratch/.gitkeep
 
 packrat/lib*/
 packrat/src/
