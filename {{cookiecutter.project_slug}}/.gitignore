@@ -1,10 +1,13 @@
-*.vim
+ *.vim
 .DS_Store
 
 data/
+!data/documentation/.gitkeep
+!data/html_reports/.gitkeep
 !data/source/.gitkeep
 !data/manual/.gitkeep
-!data/generated/.gitkeep
+!data/processed/.gitkeep
+!data/public/.gitkeep
 
 scratch/
 !scratch/.gitkeep
