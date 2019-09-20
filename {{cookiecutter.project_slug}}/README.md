@@ -28,6 +28,8 @@
 
 *TK: Instructions on how to bootstrap project, run ETL processes, etc.*
 
+An outline of the basic project structure is available at https://github.com/associatedpress/cookiecutter-r-project
+
 ### Project setup instructions
 
 After cloning the git repo:
