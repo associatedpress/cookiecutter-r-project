@@ -1,11 +1,11 @@
- *.vim
+*.vim
 .DS_Store
 
 data/
 !data/documentation/.gitkeep
 !data/html_reports/.gitkeep
 !data/source/.gitkeep
-!data/manual/.gitkeep
+!data/handmade/.gitkeep
 !data/processed/.gitkeep
 !data/public/.gitkeep
 
