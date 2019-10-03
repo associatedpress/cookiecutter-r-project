@@ -11,6 +11,7 @@ This is a project template powered by [Cookiecutter](https://github.com/cookiecu
 ├── README.md
 ├── analysis
 │   └── archive
+│   └── markdown
 ├── data
 │   ├── documentation
 │   ├── handmade
