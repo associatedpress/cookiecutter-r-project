@@ -34,7 +34,7 @@ An outline of the basic project structure is available at https://github.com/ass
 
 After cloning the git repo:
 
-`datakit data pull` to rerieve the data files.
+`datakit data pull` to retrieve the data files.
 
 Open `{{ cookiecutter.project_slug }}.Rproj` in RStudio.
 
