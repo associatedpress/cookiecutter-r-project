@@ -1,0 +1,22 @@
+project:
+  output-dir: data/html_reports
+  execute-dir: project
+number-sections: false
+toc: true
+toc-location: left
+output:
+  html_document:
+    keep_md: false
+    keep_ipynb: false
+format:
+  html:
+    theme:
+      light: simplex
+      dark: darkly
+    smooth-scroll: true
+    embed-resources: true
+    standalone: true
+  pdf:
+    documentclass: report
+    margin-left: 30mm
+    margin-right: 30mm
