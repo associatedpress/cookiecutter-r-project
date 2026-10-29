@@ -20,3 +20,7 @@ format:
     documentclass: report
     margin-left: 30mm
     margin-right: 30mm
+execute:
+  echo: false
+  message: false
+  warning: false
